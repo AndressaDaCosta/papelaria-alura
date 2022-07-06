@@ -25,14 +25,15 @@
     <!-- header>img+nav>ul>li*6>a Emmet abbreviation-->
     <header class="cabecalho container">
       <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="cabecalho__logo">
+     
       <nav class="cabecalho__navegacao">
           <ul>
-              <li class="cabecalho__link"><a href="#">Sobre</a></li>
-              <li class="cabecalho__link"><a href="#">Planos</a></li>
-              <li class="cabecalho__link"><a href="#">Blog</a></li>
-              <li class="cabecalho__link"><a href="#">Destaques</a></li>
-              <li class="cabecalho__link"><a href="#">Institucional</a></li>
-              <li class="cabecalho__link"><a href="#">Contato</a></li>
+              <li class="cabecalho__link"><a href="#sobre">Sobre</a></li>
+              <li class="cabecalho__link"><a href="#planos">Planos</a></li>
+              <li class="cabecalho__link"><a href="https://www.alura.com.br/">Blog</a></li>
+              <li class="cabecalho__link"><a href="#destaques">Destaques</a></li>
+              <li class="cabecalho__link"><a href="#institucional">Institucional</a></li>
+              <li class="cabecalho__link"><a href="#contato">Contato</a></li>
           </ul>
       </nav>
   </header>
@@ -40,11 +41,11 @@
       <section class="chamada container">
           <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
           <p class="chamada__texto">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</p>
-          <a href="#" class="chamada__botao botao">Conheça os planos</a>
+          <a href="#planos" class="chamada__botao botao">Conheça os planos</a>
      
       </section>
       <!-- section.destaques.container>h2.destaques__titulo+(a*2>figure.destaques__painel>img.destaques__painel-imagem+figc.destaques__painel-texto)+a.destaques__botao Emmet  ctrl + space -->
-      <section class="destaques container">
+      <section id="destaques"class="destaques container">
         <h2 class="destaques__titulo">Destaques</h2>
         <a href="#">
             <figure class="destaques__painel">
@@ -76,7 +77,7 @@
             </li>
         </ul>
     </section>
-    <section class="sobre container">
+    <section id="sobre" class="sobre container">
         <div class="sobre__conteudo">
             <h2 class="sobre__titulo">Sobre</h2>
             <p class="sobre__texto">Criamos aplicativos personalizados para <strong class="sobre__texto--destaque">todas as pessoas</strong>!</p>
@@ -96,7 +97,7 @@
         </div>
         <img src="img/sobre-apeperia.png" alt="Sobre a Apeperia" class="sobre__imagem">
     </section>
-    <section class="planos container">
+    <section id="planos" class="planos container">
         <h2 class="planos__titulo">Planos</h2>
         <ul class="planos__cartoes">
             <li class="cartao cartao--start">
@@ -132,12 +133,12 @@
             </li>
         </ul>
     </section>
-    <section class="contato container">
+    <section id="contato" class="contato container">
         <h2 class="contato__titulo">Contato</h2>
         <p>Entre em contato com a gente</p>
         <a href="contato.html" class="contato__botao botao">Entre em contato</a>
     </section>
-    <section class="institucional container">
+    <section id="institucional" class="institucional container">
         <h2 class="institucional__titulo">Institucional</h2>
         <div class="institucional__conteudo">
             <div class="institucional__informacoes">
@@ -155,7 +156,8 @@
     </section>
 </main>
 <footer class="rodape container">
-    <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="rodape__logo">
+  <a href="#">  
+  <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="rodape__logo"></a>
     <ul class="rodape__social">
         <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
         <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do twitter"></a></li>
